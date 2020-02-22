@@ -15,6 +15,8 @@
 		BB6C206823FC24C800EDD7A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB6C206623FC24C800EDD7A8 /* LaunchScreen.storyboard */; };
 		BB6C207323FC24C800EDD7A8 /* Labb1SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6C207223FC24C800EDD7A8 /* Labb1SwiftTests.swift */; };
 		BB6C207E23FC24C800EDD7A8 /* Labb1SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6C207D23FC24C800EDD7A8 /* Labb1SwiftUITests.swift */; };
+		BB6C208C23FE7C0E00EDD7A8 /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6C208B23FE7C0E00EDD7A8 /* ApiRequest.swift */; };
+		BB6C208E24000AE700EDD7A8 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6C208D24000AE700EDD7A8 /* WeatherData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		BB6C207923FC24C800EDD7A8 /* Labb1SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Labb1SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB6C207D23FC24C800EDD7A8 /* Labb1SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Labb1SwiftUITests.swift; sourceTree = "<group>"; };
 		BB6C207F23FC24C800EDD7A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB6C208B23FE7C0E00EDD7A8 /* ApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
+		BB6C208D24000AE700EDD7A8 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				BB6C206423FC24C800EDD7A8 /* Assets.xcassets */,
 				BB6C206623FC24C800EDD7A8 /* LaunchScreen.storyboard */,
 				BB6C206923FC24C800EDD7A8 /* Info.plist */,
+				BB6C208B23FE7C0E00EDD7A8 /* ApiRequest.swift */,
+				BB6C208D24000AE700EDD7A8 /* WeatherData.swift */,
 			);
 			path = Labb1Swift;
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB6C206023FC24C600EDD7A8 /* ViewController.swift in Sources */,
+				BB6C208E24000AE700EDD7A8 /* WeatherData.swift in Sources */,
 				BB6C205C23FC24C600EDD7A8 /* AppDelegate.swift in Sources */,
+				BB6C208C23FE7C0E00EDD7A8 /* ApiRequest.swift in Sources */,
 				BB6C205E23FC24C600EDD7A8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
