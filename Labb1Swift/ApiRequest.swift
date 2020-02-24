@@ -32,14 +32,22 @@ func fetchWeather(cityName:String, completionHandler: @escaping (WeatherData) ->
     }
 
     print("Success!")
-    
-    if let data = data,
-        let weatherData = try?
-            JSONDecoder().decode(WeatherData.self, from: data) {
-        print("Success! JSON decoded")
-        completionHandler(weatherData)
+    print(data)
+    //print("Weather name: \(String(describing: Weather.name))")
+        
+    do {
+        let data = data
+        let weatherData: WeatherData = try JSONDecoder().decode(WeatherData.self, from: data!)
+        print("City name: \(String(describing: weatherData.name))")
+            print("Success! JSON decoded")
+            completionHandler(weatherData)
+        
+    } catch {
+        print("Failed! JSON not decoded")
+        print(error)
     }
-    print("Failed! JSON not decoded")
+    
+    
   })
   task.resume()
 }

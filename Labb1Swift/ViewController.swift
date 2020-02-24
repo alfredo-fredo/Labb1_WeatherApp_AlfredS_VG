@@ -42,13 +42,20 @@ class ViewController: UIViewController, UISearchBarDelegate {
     func changeWeather(wData: WeatherData){
         //Call if successful api request fetched new data
         
+        print("Data fetched..")
+        
+        DispatchQueue.main.async {
+        
         UIView.animate(withDuration: 1, animations: {
             self.weatherView.transform = CGAffineTransform(translationX: 400, y: 0)
             
         }, completion: { _ in
-            
-            self.cityName.text = "Stockholm"
-            self.cityTemp.text = "17 *C"
+           
+        self.cityName.text = wData.name
+        
+        var celsius = wData.main.temp - 273.15
+        celsius = Double(round(10*celsius)/10)
+        self.cityTemp.text = "\(celsius)" 
             
             self.weatherView.transform = CGAffineTransform(translationX: -400, y: 0)
             
@@ -57,11 +64,12 @@ class ViewController: UIViewController, UISearchBarDelegate {
                 
             })
         })
-        
+            
+        }
     }
     
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
-        var searchText = searchBar.searchTextField.text ?? "Error"
+        let searchText = searchBar.searchTextField.text ?? "Error"
         
         fetchWeather(cityName: searchText, completionHandler: changeWeather)
         
