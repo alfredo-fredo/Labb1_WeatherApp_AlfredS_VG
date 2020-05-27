@@ -12,11 +12,12 @@
 		BB6C206023FC24C600EDD7A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6C205F23FC24C600EDD7A8 /* ViewController.swift */; };
 		BB6C206323FC24C600EDD7A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB6C206123FC24C600EDD7A8 /* Main.storyboard */; };
 		BB6C206523FC24C800EDD7A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB6C206423FC24C800EDD7A8 /* Assets.xcassets */; };
-		BB6C206823FC24C800EDD7A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB6C206623FC24C800EDD7A8 /* LaunchScreen.storyboard */; };
 		BB6C207323FC24C800EDD7A8 /* Labb1SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6C207223FC24C800EDD7A8 /* Labb1SwiftTests.swift */; };
 		BB6C207E23FC24C800EDD7A8 /* Labb1SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6C207D23FC24C800EDD7A8 /* Labb1SwiftUITests.swift */; };
 		BB6C208C23FE7C0E00EDD7A8 /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6C208B23FE7C0E00EDD7A8 /* ApiRequest.swift */; };
 		BB6C208E24000AE700EDD7A8 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6C208D24000AE700EDD7A8 /* WeatherData.swift */; };
+		BB7E8B90240407E7003F3803 /* CityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7E8B8F240407E7003F3803 /* CityList.swift */; };
+		BB9FF232245DDFE5002BD18D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB9FF231245DDFE5002BD18D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +44,6 @@
 		BB6C205F23FC24C600EDD7A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BB6C206223FC24C600EDD7A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB6C206423FC24C800EDD7A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BB6C206723FC24C800EDD7A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB6C206923FC24C800EDD7A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB6C206E23FC24C800EDD7A8 /* Labb1SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Labb1SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB6C207223FC24C800EDD7A8 /* Labb1SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Labb1SwiftTests.swift; sourceTree = "<group>"; };
@@ -53,6 +53,8 @@
 		BB6C207F23FC24C800EDD7A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB6C208B23FE7C0E00EDD7A8 /* ApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
 		BB6C208D24000AE700EDD7A8 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		BB7E8B8F240407E7003F3803 /* CityList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityList.swift; sourceTree = "<group>"; };
+		BB9FF231245DDFE5002BD18D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,10 +110,11 @@
 				BB6C205F23FC24C600EDD7A8 /* ViewController.swift */,
 				BB6C206123FC24C600EDD7A8 /* Main.storyboard */,
 				BB6C206423FC24C800EDD7A8 /* Assets.xcassets */,
-				BB6C206623FC24C800EDD7A8 /* LaunchScreen.storyboard */,
 				BB6C206923FC24C800EDD7A8 /* Info.plist */,
 				BB6C208B23FE7C0E00EDD7A8 /* ApiRequest.swift */,
 				BB6C208D24000AE700EDD7A8 /* WeatherData.swift */,
+				BB7E8B8F240407E7003F3803 /* CityList.swift */,
+				BB9FF231245DDFE5002BD18D /* LaunchScreen.storyboard */,
 			);
 			path = Labb1Swift;
 			sourceTree = "<group>";
@@ -238,7 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB6C206823FC24C800EDD7A8 /* LaunchScreen.storyboard in Resources */,
+				BB9FF232245DDFE5002BD18D /* LaunchScreen.storyboard in Resources */,
 				BB6C206523FC24C800EDD7A8 /* Assets.xcassets in Resources */,
 				BB6C206323FC24C600EDD7A8 /* Main.storyboard in Resources */,
 			);
@@ -269,6 +272,7 @@
 				BB6C208E24000AE700EDD7A8 /* WeatherData.swift in Sources */,
 				BB6C205C23FC24C600EDD7A8 /* AppDelegate.swift in Sources */,
 				BB6C208C23FE7C0E00EDD7A8 /* ApiRequest.swift in Sources */,
+				BB7E8B90240407E7003F3803 /* CityList.swift in Sources */,
 				BB6C205E23FC24C600EDD7A8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,14 +315,6 @@
 				BB6C206223FC24C600EDD7A8 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BB6C206623FC24C800EDD7A8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BB6C206723FC24C800EDD7A8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -444,6 +440,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Labb1Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,6 +458,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Labb1Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
